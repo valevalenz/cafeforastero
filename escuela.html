@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="main.js"></script>
   <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
+  <script src="main.js"></script>
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -20,147 +20,184 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/2d43c2a20d.js"></script>
+  <link rel="icon" type="image/png" href="../Proyecto final/imagenes/logo.1.png" />
   <title>Café Forastero Escuela </title>
+  
 </head>
-<body>
+<body id="bodyEscuela">
   <div class="container-fluid"> 
-    <div class="container-fluid" id="headerescuela">
+    
       <div class="row">
-        <nav class="hidden-xs col-sm-12 navbar navbar-fixed-top" data-spy="affix" data-offset-top="150" id="navbar-collapse-1">
+        <nav class="col-xs-12 col-sm-12 navbar navbar-fixed-top nav2"  id="navbar-collapse-1">
         <ul>
-        <li> Encuéntranos en Redes Sociales <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-facebook" aria-hidden="true"></i> </li>
-        <li class="nohover"> <a class="nohover" href="http://blog.cafeforastero.cl/"> Blog </a> </li>
-        <li class="disabled"> <a href="../Proyecto final/somos.html"> Nuestra Historia </a> </li>
-        <li class="disabled"> <a href="../Proyecto final/eventos.html"> Eventos </a> </li>
-        <li class="disabled"> <a href="../Proyecto final/escuela.html"> Escuelita Forastera </a>  </li> 
-        <li class="disabled"> <a href="../Proyecto final/index.html"> Inicio </a>  </li>
-        <ul>
-          <div class="navbar-header collapse navbar-collapse" id="navbar-collapse-1 col-xs-12">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+          <li> <span class="hidden-xs"> Encuéntranos en Redes Sociales </span> <a  class="nohover" href="https://www.instagram.com/cafeforastero/"> <i class="fa fa-instagram" aria-hidden="true"></i> </a> <a  class="nohover" href="https://www.facebook.com/cafeforastero/">
+          <i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+          <li> <a class="nohover" href="http://blog.cafeforastero.cl/"> Blog </a> </li>
+          <li > <a class="nohover" href="../Proyecto final/somos.html"> Nuestra Historia </a> </li>
+          <li > <a class="nohover" href="../Proyecto final/eventos.html"> Eventos </a> </li>
+          <li> <a class="nohover" href="../Proyecto final/escuela.html"> Escuelita Forastera </a>  </li> 
+          <li> <a class="nohover" href="../Proyecto final/index.html"> Inicio </a>  </li>
+        </ul> 
       </nav>
       </div>
-    </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 jumbotron">
+           <h1> Escuelita Forastera</h1>
+           <h5 id="introEscuela"> Para Baristas y Buenos Bebedores de Café</h5> <p class="hidden-xs"> Después del primer ciclo de Curso de Baristas de la Escuelita Forastera, ponemos a disposición de la comunidad nuestros 3 (por ahora) formatos de curso <span class="hidden-sm hidden-md"> para todos los entusiastas que quieran profundizar en el maravilloso mundo del café, y hacerlo a través de nuestro prisma. <span> </p> </div>
+        <div class="hidden-xs col-sm-8 col-md-8 col-lg-8" id="headerescuela">
+          
+          
+        </div>
+      </div>
+
+    
   
       <div class="row">
-        <div class="col-xs-12">
+        <div class="hidden-xs col-sm-12 col-md-12 col-lg-12">
         <nav id="submenuEscuela" class="nav nav-tabs">
-          <li class="anclaEscuela" id="cursos"> <a href="#cursos"> Descripción de Cursos </a>  </li>
-          <li class="anclaEscuela" > <a href="#fechas"> Fechas </a> </li>
-          <li class="anclaEscuela"> <a href="#alumni"> Alumni  </a> </li>
+          <li id="cursos"> <a class="anclaEscuela" href="#cursos"> Descripción de Cursos </a>  </li>
+          <li> <a class="anclaEscuela" href="#fechas"> Fechas </a> </li>
+          <li> <a class="anclaEscuela" href="#alumni"> Alumni  </a> </li>
         </nav>
       </div>
     </div>
-    <div class="row ">
-        <div class="col-xs-12">
-          <br>
-          
-          <h5 id="introEscuela"> Después del primer ciclo de Curso de Baristas de la Escuelita Forastera, ponemos a disposición de la comunidad nuestros 3 (por ahora) formatos de curso para todos los entusiastas que quieran profundizar en el maravilloso mundo del café, y hacerlo a través de nuestro prisma. </h5>
+
+    
+    <div class="row taller">
+      <div class="hidden-xs col-sm-1 col-ms-1 col-lg-1"> </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
+        <div class="background">
+          <div class="transbox">
+            <h3> Taller de Filtrados – Iniciación a las Preparaciones de Café. </h3>
+             <p class="hidden-xs"> Este curso es el pilar fundamental para todos quienes quieren introducirse a las preparaciones de café, conocer un poco el ciclo del café desde el origen hasta la taza, con énfasis fuerte en los Cafés Especiales. 
+             <p class="hidden-xs">Este taller aborda las preparaciones de café desde un punto de vista súper general, llegando a comprender con precisión el impacto de ciertos aspectos de la preparación sobre otros y finalmente sobre la taza.<br> <br>
+            
+             </p>
+         </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="background">
+          <div class="transbox">
+      
+      
+         <h3>Cuándo: </h3> <p> Sábados en la mañana </p>
+         <h3>Duración:</h3> <p> 4 horas. </p>
+          <h3>Recomendado para:</h3 > <p> amantes del café y baristas que quieran introducirse en la preparación de filtrados. </p>
+        
+        
+
           </div>
-        
+          </div>
       </div>
+      <div class="hidden-xs col-sm-1 col-md-1 col-lg-1"> </div>
+    </div>
+  
+
+    <div class="row"> <div class="linea"></div></div>
+
     <div class="row taller">
+      <div class="hidden-xs col-sm-1 col-ms-1 col-lg-1"> </div>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
-        <h3> Taller de Filtrados – Iniciación a las Preparaciones de Café. </h3>
-        <p> Este curso es el pilar fundamental para todos quienes quieren introducirse a las preparaciones de café, conocer un poco el ciclo del café desde el origen hasta la taza, con énfasis fuerte en los Cafés Especiales. <br>
+        <div class="background">
+          <div class="transbox">
+            <h3> Curso de Barista – Básico </h3>
+            <p class="hidden-xs"> Este curso es el pilar fundamental para todos quienes quieren introducirse a las preparaciones de café, conocer un poco el ciclo del café desde el origen hasta la taza, con énfasis fuerte en los Cafés Especiales.</p>
+      
+           <p  class="hidden-xs"> Este taller aborda las preparaciones de café desde un punto de vista súper general, llegando a comprender con precisión el impacto de ciertos aspectos de la preparación sobre otros y finalmente sobre la taza.
+            </p> <br>
+         </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="background">
+          <div class="transbox">
+        
+        <h3> Cuándo: </h3> <p> 3 sesiones de 5 horas </p>
+        <h3> Duración: </h3> <p>  15 horas </p>
+        <h3> Recomendado para: </h3> <p> Quienes desean aprender a trabajar en una barra de café. </p>
+        
+          </div>
+          </div>
+      </div>
+      <div class="hidden-xs col-sm-1 col-md-1 col-lg-1"> </div>
+    </div>
+
+    <div class="row"> <div class="linea"></div></div>
+
+    <div class="row taller">
+      <div class="hidden-xs col-sm-1 col-ms-1 col-lg-1"> </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
+        <div class="background">
+          <div class="transbox">
+            <h3> Curso de Barista – Completo </h3>
+             <p class="hidden-xs"> Este curso contempla y expande sobre todo lo que incorpora el curso de barista básico. 
+               
+             Lo ‘Extra’ que contempla este curso es que todos los conocimientos se desarrollan con más tiempo, dando más espacio para repasar fundamentos teóricos y técnicos de toda la ejecución barística. </p>
+
+            <p class="hidden-xs"> En adición a lo anterior, considera 2 jornadas de pasantía en Café Forastero trabajando lado a lado con nuestros baristas.
+        </p> <br>
+         </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="background">
+          <div class="transbox">
+        
+        <h3> Cuándo: </h3> <p> 5 jornadas de 5 horas. </p>
+        <h3> Duración: </h3> <p> 25 horas + 2 jornadas de pasantía en CF. </p>
+        <h3>Recomendado para: </h3> <p> Quienes busquen un espacio para repasar y profundizar fundamentos teóricos y técnicos. </p>
+      
           
-        <span class="hidden-xs">Este taller aborda las preparaciones de café desde un punto de vista súper general, llegando a comprender con precisión el impacto de ciertos aspectos de la preparación sobre otros y finalmente sobre la taza.<span>
-         <br>
-       
-       
-        </p>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
-        <br>
-        <br>
-      
-         <strong>Cuándo:</strong> Sábados en la mañana <br>
-        <strong>Duración:</strong> 4 horas. <br>
-          <strong>Recomendado para:</strong> amantes del café y baristas que quieran profundizar su conocimiento en administración de variables y preparación de filtrados.
-          <br>
-          <br>
-          <br>
-          <br>
-      </div>
+      <div class="hidden-xs col-sm-1 col-md-1 col-lg-1"> </div>
     </div>
-
-    <div class="row"> <div class="linea"></div></div>
-
-    <div class="row taller">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
-        <h3> Curso de Barista – Básico </h3>
-        <p> Este curso es el pilar fundamental para todos quienes quieren introducirse a las preparaciones de café, conocer un poco el ciclo del café desde el origen hasta la taza, con énfasis fuerte en los Cafés Especiales.
-      
-        Este taller aborda las preparaciones de café desde un punto de vista súper general, llegando a comprender con precisión el impacto de ciertos aspectos de la preparación sobre otros y finalmente sobre la taza.
-       
-        
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
-        <br>
-        <br>
-        Cuándo: mañana del día Sábado <br>
-        Duración: 4 horas <br>
-        Recomendado para: amantes del café y baristas que quieran profundizar su conocimiento en administración de variables y preparación de filtrados.
-        <br>
-          <br>
-          <br>
-          <br>
-      </div>
-    </div>
-
-    <div class="row"> <div class="linea"></div></div>
-
-    <div class="row taller">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
-        <h3> Curso de Barista – Completo </h3>
-        <p> Este curso contempla y expande sobre todo lo que incorpora el curso de barista básico, extendiéndolo en 2 jornadas de 5 horas, para un total de 25 horas.
-
-        Lo ‘Extra’ que contempla este curso es que todos los conocimientos se desarrollan con más tiempo, dando más espacio para repasar fundamentos teóricos y técnicos de toda la ejecución barística.
-
-        En adición a lo anterior, considera 2 jornadas de pasantía en Café Forastero trabajando lado a lado con nuestros baristas.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
-        <br>
-        <br>  
-        Cuándo: sábados. <br>
-        Duración: 25 horas. <br>
-        Recomendado para: amantes del café y baristas que quieran profundizar su conocimiento en administración de variables y preparación de filtrados.
-        <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-      </div>
-    </div>
-    <div class="row"> <div class="linea"></div></div>
-    <div class="row panel panel-default fechas"> 
-      <div class="col-xs-12">
-        <h2> Próximas Fechas </h2>
-        <h3> ¡Ya están abiertas las inscripciones para los Cursos y Talleres para Junio!
-        </h3>
-        <img id="fechas" src="../Proyecto final/imagenes/calendario.png">
-    </div>
-        
-      </div>
-    </div>
+  
     <div class="row"> 
-      <div class="col-xs-3"> </div>
-      <div class="col-xs-6"> 
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h2> Próximas Fechas </h2>
+        <h3> ¡Ya están abiertas las inscripciones para los Cursos y Talleres para Junio! <a href="https://www.facebook.com/escuelacafeforastero/?fref=mentions" /> Visita nuestra página de facebook </a> y entérate de todo.
+        </h3>
+        <img class="img-responsive hidden-xs" id="fechas" src="../Proyecto final/imagenes/calendario.png"/>
+       </div>
+       
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 formCursos"> 
+
+          <h3> Inscríbete! </h3>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Curso</label>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Taller de Filtrados</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Curso de Barista Básico</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" >Curso de Barista Completo</label>
+            </div>
+          </div>
+          <input class="btn btn-primary" value="Enviar" type="submit"/>
+        </div>
+        <div class="hidden-xs col-sm-1 col-md-1 col-lg-1"> </div>
+    </div>
+      
+
+
+  
+    <div class="row"> 
+      <div class="hidden-xs col-sm-3 col-md-3 col-lg-3"> </div>
+      <div class="hidden-xs col-sm-6 col-md-6 col-lg-6"> 
         <h2 id="alumni"> Alumni </h2>
         <p> Lo mejor de la Escuelita Forastera son los grupos que se forman. Lo pasamos tan bien que las mañanas se nos pasan volando! Muchas gracias a todos por su apañe, su entusiasmo y buena onda! </p>
 
@@ -181,6 +218,10 @@
       <img src="../Proyecto final/imagenes/carrusel2.jpg" alt="">
     </div>
 
+    <div class="item">
+      <img src="../Proyecto final/imagenes/carrusel1.jpg" alt="">
+    </div>
+
     
 
   <!-- Left and right controls -->
@@ -194,7 +235,7 @@
   </a>
 </div>
       </div>
-      <div class="col-xs-3"> </div>
+      <div class="hidden-xs col-sm-3 col-md-3 col-lg-3"> </div>
     </div>
   </div>
 </body>

@@ -5,7 +5,12 @@ $( document ).ready(function() {
 });
 
 
+$(".section").on('click', function(){
+    $(".section").toggleClass('cerrado')
+    $(this).children("div").toggle("")
+    console.log(this);
+    console.log($(this));
+  });
 
+  
 })
-
-
